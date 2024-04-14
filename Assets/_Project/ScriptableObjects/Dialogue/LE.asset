@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: LE
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - Another world? Perhaps I can establish my own dominion here.
+  - Summoned to another world? Looks a little midieval, I think I can establish myself
+    here.
+  - This isn't my world? Interesting, I can make things work here.
+  responses_cooperate:
+  - I can do your quest as long as it benefits me in the long run.
+  - I'll do your quest, but I have my own rules.
+  - Seems like an opportunity that I shouldn't pass up. I'll do your quest.
+  responses_imprison:
+  - Guards? How dare you threaten me with imprisonment. I will crush you where you
+    stand.
+  - Calling the guards? You'll regret challenging me.
+  - I'll comply for now, but I will be back.
+  succeeded:
+  - Back from the quest, and I've furthered my agenda significantly.
+  - Building my power one step at a time, I've completed the quest.
+  - Managed to finished the quest. Cool that it worked out for me so well.
+  failed:
+  - It's a small setback, but I can find power elswhere. This failure is nothing.
+  - I'll turn the tables back. Failing this quest means nothing.
+  - I failed the quest, but I'll strike back twice as hard.
+  injured:
+  - The injuries sustained are a minor inconvenience.
+  - Wounds in battle should've been expected. I'll be back stronger than ever.
+  - They tore me up, but I will bring the pain back to them tenfold.

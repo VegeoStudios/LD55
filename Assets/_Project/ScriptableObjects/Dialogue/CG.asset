@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: CG
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - Another world? Sounds like an adventure waiting to happen!
+  - Summoned to another world? That's awesome!
+  - New world? New challenges, people to meet, and things to explore!
+  responses_cooperate:
+  - Sure, I'll do your quest! But let's do it my way, not by the book.
+  - I'll do your quest, but don't expect me to follow the rules.
+  - I'll make sure no one gets hurt on the endeavor!
+  responses_imprison:
+  - Calling the guards on me? Looks like someone's afraid of what I might uncover.
+  - Yeah, you can try to lock me up, but you can't contain my spirit!
+  - The guards want to arrest me? Well, I'm sorry I couldn't break my back for your
+    rules.
+  succeeded:
+  - Ah, I feel like I really made a difference in this world!
+  - I have returned! Time for a drink! Cheers for a successful quest and to the people!
+  - That was fun! Felt like I really did something. What's next?
+  failed:
+  - Failing the quest is disappointing, but it won't stop me!
+  - Failing the quest means I just need to double my efforts and try another approach.
+  - I'll keep pushing forward, this failure won't set me back!
+  injured:
+  - Eh, it's a small price to pay for the lives we saved and the good we've done.
+  - Injury? More like a badge of honor!
+  - Worth every scar. This won't stop me from helping people!

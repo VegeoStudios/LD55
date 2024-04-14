@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: NG
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - Another world? That's amazing. I can't believe it.
+  - Summoned to another world? I'll approach it with an open heart.
+  - Summoned? Well, I'll try my best to spread kindness here.
+  responses_cooperate:
+  - Sure, I can do your quest. I'll do my best!
+  - Wow, I sure hope I can help. As long as it's not to dangerous, I would like to
+    do what I can.
+  - I'm more than willing to join your quest. I will help however I can!
+  responses_imprison:
+  - Guards? Wait, this is a misunderstanding!
+  - If calling the guards is necessary, then I'll cooperate...
+  - Wait, I don't understand, this seems a bit excessive, don't you think?
+  succeeded:
+  - I finished up the quest! Man, I'm glad I was able to help those people.
+  - There was no way I was going to fail that quest! And I helped people too!
+  - Completing the quest fills me with hope for a brighter future.
+  failed:
+  - Man, I'm sorry I wasn't able to complete the quest. But I won't lose hope!
+  - Failing the quest isn't the end of the journey. I'll do my best to make a positive
+    impact, no matter the world!
+  - I've returned from the quest, humbled by the opportunity to make a difference.
+  injured:
+  - I seemed to have gotten myself a little banged up. I hope it goes a little better
+    next time.
+  - I may be gushing blood, but that won't stop me from helping people!
+  - It hurts a little, but I'll be fine. I can still help!

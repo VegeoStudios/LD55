@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: CN
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - Another world? Huh, who knew this could actuall happen...
+  - Hmmm, this could be a good opportunity...
+  - Interesting, I think I could get in to a life here.
+  responses_cooperate:
+  - Cooperate with your quest? Fine, but let's make it interesting. I'm not one for
+    following the beaten path.
+  - Count me in, but don't be surprised if I bend a few rules along the way. Gotta
+    keep things exciting, right?
+  - I'll join your quest, but don't think you can control me. I'm in it for my own
+    reasons, not yours.
+  responses_imprison:
+  - Calling the guards on me? Seems a bit excessive, don't you think? Let's settle
+    this like adults.
+  - You want to involve the guards? Be my guest. But remember, they might not be
+    as impartial as you think.
+  - Calling the guards? Bold move. Let's see if they can keep up with someone who
+    doesn't play by the rules.
+  succeeded:
+  - Back from the quest, and surprisingly, everything went smoothly. Maybe I'm getting
+    the hang of this hero stuff.
+  - Well I supposed I fulfilled your request. Is there anything more interesting
+    to do in this world?
+  - Well, all done, and I came back alive. Hope you're satisfied.
+  failed:
+  - Ah well, you win some, you lose some. Whats the next mission?
+  - So, I didn't succeed. Big deal.
+  - Not the end of the world. I can find other ways to make my mark
+  injured:
+  - Got a little banged up. No big deal.
+  - Injuries happen out on the field. I'll be fine.
+  - Oh that? That's nothing. Don't worry about it.

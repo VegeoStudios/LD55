@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: NE
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - Another world? Interesting. I wonder what opportunities for power await.
+  - Summoned to another world? Well, let's just see what  I can stir up.
+  - Another world beckons, and I intend to seize every advantage it offers.
+  responses_cooperate:
+  - Quest? Perhaps... if the rewards are worth my while.
+  - I'll consider joining your quest, but only if it benefits me in some way.
+  - I'll do it, but don't expect any blind loyalty. I am my own person!
+  responses_imprison:
+  - Guards? Ha! They won't contain me for long.
+  - Wow, so touchy. Well sorry I broke your feelings. I'll find my own way out.
+  - If the quest-giver wants to play dirty, I can play dirty too.
+  succeeded:
+  - Back from the quest, and richer for it. Who knew running these errands could
+    be so profitable?
+  - Success means I've gained more power. Watch out, world.
+  - Triumph in the quest proves I'll stop at nothing to get what I want.
+  failed:
+  - Failing won't stop me, there are other ways to gain power.
+  - I'll find another path to victory.
+  - Failing the quest? Bah, no matter, I'm stronger than ever!
+  injured:
+  - Ah, the sweet pain of ambition. This compares nothing to what I'll achieve.
+  - These are just reminders of my path to greatness!
+  - I'll crush those guys next time, and I don't care who gets in my way.

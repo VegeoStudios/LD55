@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: CE
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - This isn't JAPAN!
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - Wait, another world? That means I could do anything!
+  - Welp, here I go being chaotic and evil again!
+  - You there! Why did you bring me here?
+  - I don't have time for this. I've got bigger fish to fry.
+  responses_cooperate:
+  - Sure, I'll help you with your little quest. Just remember, my loyalty only lasts
+    until it's convenient for me.
+  - Cooperate? Fine. But don't expect me to follow your precious rules or morals.
+    I'll do what benefits me, and only me.
+  - You want my help? Well, you better make it worth my while. And don't even think
+    about trying to double-cross me.
+  responses_imprison:
+  - You really think those guards can hold me? You'll regret this, mark my words.
+  - Call the guards if you dare. But remember, they'll have to catch me first, and
+    that won't be easy.
+  - You think you can just hand me over to the guards? You have no idea who you're
+    dealing with.
+  - Go ahead, call the guards. But just know that this won't end well for anyone
+    involved.
+  succeeded:
+  - I'm back, and let me tell you, it was quite the adventure. But hey, you got what
+    you wanted, didn't you?
+  - Well, well, well, look who's back from saving the day. Don't act too surprised,
+    I told you I'd get it done.
+  - You're welcome. Now, where's my reward? I don't have all day to stand around
+    and bask in your gratitude.
+  failed:
+  - So what if I failed? It's not like I cared about your stupid quest anyway.
+  - Failed? Me? Please, I was set up to fail from the start. This is on you, not
+    me.
+  - Failure is just a temporary setback. I'll get it done eventually, whether you
+    like it or not.
+  injured:
+  - Do I look like I need your sympathy? I got injured because I chose to, not because
+    I needed help.
+  - Injured? Please, this is just a scratch. I've faced worse and come out on top.
+  - I may be injured, but don't think for a second that I'm weak. I'll recover and
+    come back stronger than ever.

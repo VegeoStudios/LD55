@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: LG
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - Summoned to another world? I'll try to make sure to keep by values close.
+  - This is another world? I will do my best to help!
+  - Another world? Where am I needed?
+  responses_cooperate:
+  - Of course, as long as it serves the greater good.
+  - I am willing to do your quest, as it seems there are those who need me.
+  - I will gladly participate in your quest. I will bring justice!
+  responses_imprison:
+  - Guards? If you believe that imprisoning me is just, then let us seek justice
+    through the proper channels.
+  - Calling the guards is unnecessary. I shall willingly submit myself to their authority,
+    for I have nothing to hide.
+  - I won't resist, but I urge you to reconsider your course of action.
+  succeeded:
+  - Completing the quest was a noble endeavor. I'm glad I was able to do good.
+  - Triumph in the quest fills my heart with joy. Let us celebrate this victory!
+  - Back from the quest, and justrice has prevailed. Let us continue to uphold these
+    virtues.
+  failed:
+  - Failure was a setback, but it won't stop me from my noble cause.
+  - I greatly regret to inform you that I wasn't able to complete what was asked
+    of me. This won't stop me though.
+  - This will not diminish my commitment to upholding the law.
+  injured:
+  - Wounds are a badge of honor. I know what I was fighting for.
+  - These injuries only strengthen my resolve to protect the innocent.
+  - I'm glad I was able to do good, but I may need some attention if I am going to
+    continue.

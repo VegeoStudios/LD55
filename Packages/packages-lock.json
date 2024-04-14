@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.unify.unified-universal-blur": {
+      "version": "https://github.com/lukakldiashvili/Unified-Universal-Blur.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "7.0.0"
+      },
+      "hash": "b24590cbb35df70495c748aac1e2c020e5f8b2dc"
+    },
     "com.unity.2d.animation": {
       "version": "9.0.3",
       "depth": 1,
@@ -249,6 +258,15 @@
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.androidjni": "1.0.0",
         "com.unity.services.core": "1.8.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.recorder": {
+      "version": "4.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53582f5bda02d124a93bbb4e4cd4e634, type: 3}
+  m_Name: LN
+  m_EditorClassIdentifier: 
+  summoned1:
+  - What is this? Why am I here?
+  - God, my head hurts... Whats going on?
+  - Whoa, I wasn't here a second ago!
+  - What???
+  - What's going on?!?!
+  - AHHHHHHHH!!!!
+  - ...
+  - Wait, this isn't right...
+  - Where... am I?
+  - Whoa, that felt weird.
+  - Whoa, that felt weird.
+  - This... this can't be real.
+  - What's happening? Where am I?
+  - I feel like I've stepped into a different dimension.
+  - I need to stay calm and figure out what's going on.
+  summoned2:
+  - I wonder if anyone else from my world is here.
+  - Summoned to another world, you say? This is quite the unexpected turn of events!
+  - Interesting... It seems my meticulous planning will need to adapt to this new
+    world.
+  responses_cooperate:
+  - I'll cooperate, but expect me to ensure that my actions adhere to the laws of
+    this realm.
+  - I'll participate in your quest, but I reserve the right to question any morally
+    ambiguous tasks.
+  - I'm willing to cooperate as long as you have a good plan.
+  responses_imprison:
+  - Calling the guards is a grave misjudgement.
+  - Summoning the guards only serves to escalate this situation beyond reason.
+  - Imprisonment without due process? I'll see to it that your actions are brought
+    before the proper authorities.
+  succeeded:
+  - I've returned vitorious, as exprected. Order has been restored to this realm.
+  - My plan was perfect in every way. Failure was never a possibility.
+  - The successful completion of the quest further solidifies my reputation as a
+    lawful agent of change.
+  failed:
+  - The quest's failure is a lesson in the importance of adaptability and contingency
+    planning.
+  - My failure in the quest is regrettable, but it will not deter me from pursuing
+    justice.
+  - Failure is unacceptable. I must analyze my missteps and devise a more structured
+    approach.
+  injured:
+  - Sustaining injuries is a reminder of the risks inherent in maintaining order.
+  - Though injured, I shall press on.
+  - This injury is nothing. It will not stop me from enacting justice!
