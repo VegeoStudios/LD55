@@ -29,11 +29,12 @@ MonoBehaviour:
   - What's happening? Where am I?
   - I feel like I've stepped into a different dimension.
   - I need to stay calm and figure out what's going on.
+  - NO WAIT TAKE ME BACK!
   summoned2:
   - Wait, another world? That means I could do anything!
-  - Welp, here I go being chaotic and evil again!
   - You there! Why did you bring me here?
   - I don't have time for this. I've got bigger fish to fry.
+  - Another world? Huh, this could get pretty fun!
   responses_cooperate:
   - Sure, I'll help you with your little quest. Just remember, my loyalty only lasts
     until it's convenient for me.
@@ -41,6 +42,7 @@ MonoBehaviour:
     I'll do what benefits me, and only me.
   - You want my help? Well, you better make it worth my while. And don't even think
     about trying to double-cross me.
+  - Fine I'll help if you're that desperate.
   responses_imprison:
   - You really think those guards can hold me? You'll regret this, mark my words.
   - Call the guards if you dare. But remember, they'll have to catch me first, and
@@ -56,15 +58,18 @@ MonoBehaviour:
     I told you I'd get it done.
   - You're welcome. Now, where's my reward? I don't have all day to stand around
     and bask in your gratitude.
+  - Quest completed! Wheres my gold?
   failed:
   - So what if I failed? It's not like I cared about your stupid quest anyway.
   - Failed? Me? Please, I was set up to fail from the start. This is on you, not
     me.
   - Failure is just a temporary setback. I'll get it done eventually, whether you
     like it or not.
+  - Not like I really cared about your little quest. I had better places to be.
   injured:
   - Do I look like I need your sympathy? I got injured because I chose to, not because
     I needed help.
   - Injured? Please, this is just a scratch. I've faced worse and come out on top.
   - I may be injured, but don't think for a second that I'm weak. I'll recover and
     come back stronger than ever.
+  - Hey, you've got money. Patch me up. You can't have one of your heroes injured.

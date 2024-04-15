@@ -143,10 +143,10 @@ public class Character
                 break;
             case Alignment.LawfulEvil:
             case Alignment.NeutralEvil:
-                diff = Random.Range(1, 5);
+                diff = Random.Range(1, 10);
                 break;
             case Alignment.ChaoticEvil:
-                diff = Random.Range(5, 15);
+                diff = Random.Range(5, 20);
                 break;
         }
 
@@ -319,22 +319,17 @@ public class Character
     private void QuestObjective()
     {
         Debug.Log(characterName + " is doing a quest objective.");
-        bool success;
+        bool success = false;
 
         if (Random.Range(0, 100) < 70)
         {
             success = Encounter();
         }
-        else
-        {
-            SideQuest();
-            success = true;
-        }
 
 
         if (success)
         {
-            int diff = Random.Range(-5, -1);
+            int diff = Random.Range(-20, -1);
             GameManager.instance.enemyPower += diff;
             questStatus = QuestStatus.Completed;
             Report.instance.PriorityLog(characterName + " completed the quest objective and decreased enemy power by " + Mathf.Abs(diff) + ".");
@@ -395,7 +390,8 @@ public class Character
 
         maxHealth = 0;
         health = 0;
-        for (int i = 0; i < Mathf.RoundToInt(Mathf.Clamp(Util.NormalDistribution(10, 3), 0, 20)); i++)
+        int count = Mathf.RoundToInt(Mathf.Clamp(Util.NormalDistribution(10, 2), 0, 20));
+        for (int i = 0; i < count; i++)
         {
             ImproveConstitution();
         }

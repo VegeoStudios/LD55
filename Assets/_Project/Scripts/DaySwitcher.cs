@@ -21,4 +21,9 @@ public class DaySwitcher : MonoBehaviour
     {
         GameManager.instance.ViewReport();
     }
+
+    public void End()
+    {
+        GameManager.instance.ExitToMainMenu();
+    }
 }

@@ -32,10 +32,13 @@ MonoBehaviour:
   - Another world? Sounds like an adventure waiting to happen!
   - Summoned to another world? That's awesome!
   - New world? New challenges, people to meet, and things to explore!
+  - Oooo, EXCITING!
   responses_cooperate:
   - Sure, I'll do your quest! But let's do it my way, not by the book.
   - I'll do your quest, but don't expect me to follow the rules.
   - I'll make sure no one gets hurt on the endeavor!
+  - I'll make it happen! Just don't be too surprised if things get a little off the
+    rails.
   responses_imprison:
   - Calling the guards on me? Looks like someone's afraid of what I might uncover.
   - Yeah, you can try to lock me up, but you can't contain my spirit!
@@ -45,11 +48,14 @@ MonoBehaviour:
   - Ah, I feel like I really made a difference in this world!
   - I have returned! Time for a drink! Cheers for a successful quest and to the people!
   - That was fun! Felt like I really did something. What's next?
+  - Got the quest done, but I did have to take some alternative methods.
   failed:
   - Failing the quest is disappointing, but it won't stop me!
   - Failing the quest means I just need to double my efforts and try another approach.
   - I'll keep pushing forward, this failure won't set me back!
+  - Quest failed... Oh well, it happens. Next one will be a success!
   injured:
   - Eh, it's a small price to pay for the lives we saved and the good we've done.
   - Injury? More like a badge of honor!
   - Worth every scar. This won't stop me from helping people!
+  - Yeah, got myself a little injured. That was my fault though.

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Transform characterActionsScreen;
     [SerializeField] private Transform classSelectionScreen;
     [SerializeField] private Transform reportUI;
+    [SerializeField] private Transform winPaper;
+    [SerializeField] private Transform losePaper;
 
     private bool heroBoughtToday = false;
 
@@ -77,24 +80,42 @@ public class GameManager : MonoBehaviour
 
         enemyPower = Mathf.Clamp(enemyPower, 0, 200);
 
+        Report.instance.Show();
+
         if (enemyPower >= 200)
         {
-
+            Report.instance.gameObject.SetActive(false);
+            losePaper.gameObject.SetActive(true);
+            losePaper.GetComponent<ObjectLerper>().target = viewPosition;
+            StartCoroutine(EndGame());
         }
         else if (enemyPower <= 0)
         {
+            Report.instance.gameObject.SetActive(false);
+            winPaper.gameObject.SetActive(true);
+            winPaper.GetComponent<ObjectLerper>().target = viewPosition;
+            StartCoroutine(EndGame());
+        }
+    }
 
-        }
-        else
-        {
-            Report.instance.Show();
-        }
+    private IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(10f);
+        daySwitch.SetTrigger("End");
+    }
+
+    public void ExitToMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void ViewReport()
     {
-        Report.instance.objectLerper.target = viewPosition;
-        reportUI.gameObject.SetActive(true);
+        if (enemyPower < 200 && enemyPower > 0)
+        {
+            Report.instance.objectLerper.target = viewPosition;
+            reportUI.gameObject.SetActive(true);
+        }
     }
 
     public void StopReport()
@@ -269,7 +290,7 @@ public class GameManager : MonoBehaviour
 
     public void Heal()
     {
-        if (budget >= 20)
+        if (budget >= 20 && currentCharacter.health < currentCharacter.maxHealth)
         {
             budget -= 20;
             currentCharacter.health = currentCharacter.maxHealth;
